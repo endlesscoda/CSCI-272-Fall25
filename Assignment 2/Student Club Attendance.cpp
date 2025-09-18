@@ -6,25 +6,25 @@
 using namespace std;
 
 double getAverage(const vector<int>& ids) {
-    if (ids.empty()) { // Checks if the vector is empty to avoid dividing by zero.
+    if (ids.empty()) { // Checks if the vector is empty to avoid dividing by zero
         return 0.0;
     }
     double sum = 0.0;
-    for (int id : ids) { // Range-based loop to add all of the values.
+    for (int id : ids) { // Range-based loop to add all of the values
         sum += id;
     }
     return sum / ids.size();
 }
 
 int getHighest(const vector<int>& ids) {
-    if (ids.empty()) { // Checks if the vector is empty.
+    if (ids.empty()) { // Checks if the vector is empty
         return 0;
     }
     
     int highest = ids.at(0);
     for (size_t i = 1; i < ids.size(); ++i) {
-        if (ids.at(i) > highest) { // Checks if the current student ID is larger than the current highest one.
-            highest = ids.at(i); // Replaces the current student ID if it is bigger.
+        if (ids.at(i) > highest) { // Checks if the current student ID is larger than the current highest one
+            highest = ids.at(i); // Replaces the current student ID if it is bigger
         }
     }
     return highest;
