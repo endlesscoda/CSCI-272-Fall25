@@ -27,7 +27,7 @@ int main() {
     
     // Creates the final menu.
     cout << "Final Menu: " << endl;
-    for (const auto& dish : menu) {
+    for (string dish : menu) {
         cout << "-" << dish << endl;
     }
     
