@@ -31,7 +31,7 @@ int getHighest(const vector<int>& ids) {
 }
 
 int main() {
-    // Vector stores the student IDs
+    // Vector stores the student IDs (randomized values)
     vector<int> studentIDs = {28397934, 27387284, 43874875, 22038942, 37238437, 92846732, 52637821, 82937842, 17263767, 77777777};
     // Prints the results of both functions
     cout << "Average Student ID: " << getAverage(studentIDs) << endl;
