@@ -1,4 +1,4 @@
-// Muhammad Durrani, Cristian Medina Ceballos, Mohab Abdalla
+// Muhammad Durrani, Cristian Medina Ceballos
 // CSCI 272-01
 
 #include <iostream>
